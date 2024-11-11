@@ -153,14 +153,4 @@ export const footer = [
             {link:"Sunday 11am-6pm"}
         ]
     },
-    // {
-    //     title:"RESOURCES",
-    //     footerLinks:[
-    //         {link:"Home Insurance"},
-    //         {link:"Travel Insurance"},
-    //         {link:"Car Insurance"},
-    //         {link:"Business Insurance"},
-    //         {link:"Heal Insurance"}
-    //     ]
-    // }
 ]
