@@ -1,6 +1,4 @@
 import React from 'react'
-// import { teamMembers } from '../Data/Data'
-
 import {BiLogoFacebook} from "react-icons/bi"
 import {BsTwitter} from "react-icons/bs"
 import {FaGlobe} from "react-icons/fa6"

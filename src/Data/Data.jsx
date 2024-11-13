@@ -6,7 +6,7 @@ import {AiOutlineArrowRight} from "react-icons/ai"
 
 import img1 from "../assets/nikhil1.png"
 import img11 from "../assets/krish.png"
-import img2 from "../assets/img-9.jpg"
+// import img2 from "../assets/img-9.jpg"
 import img3 from "../assets/tanish.png"
 import img4 from "../assets/img-11.jpg"
 import img5 from "../assets/rohit.png"
@@ -25,8 +25,7 @@ export const navLinks = [
     {label:"Home",href:"#home"},
     {label:"About",href:"#about"},
     {label:"Services",href:"#services"},
-    {label:"BMI",href:"#bmi"},
-    // {label:"Schedule",href:"#schedule"},
+    {label:"BMICalculator",href:"#bmi"},
     {label:"Gallery",href:"#gallery"},
     {label:"Blog",href:"#blog"},
     {label:"Contact",href:"#contact"}
@@ -36,28 +35,42 @@ export const services = [
     {
         icon:<CiDumbbell />,
         label:"QUALITY EQUIPMENT",
-        desc:"The sea freight service has grown consider ably in recent years. We spend timetting to kn.",
+        desc:"Engineered for excellence. High-performance equipment designed to enhance your fitness and well-being.",
         btnDec:"DISCOVER MORE ABOUT US",
         btnIcon:<AiOutlineArrowRight />
     },
     {
         icon:<BsHeartPulse />,
         label:"HEALTH CARING",
-        desc:"The sea freight service has grown consider ably in recent years. We spend timetting to kn.",
+        desc:"Your health, our priority. Offering personalized care to support your well-being every step of the way.",
         btnDec:"DISCOVER MORE ABOUT US",
         btnIcon:<AiOutlineArrowRight />
     },
     {
         icon:<BiTimeFive />,
         label:"GYM STRATEGIES",
-        desc:"The sea freight service has grown consider ably in recent years. We spend timetting to kn.",
+        desc:"We have specific plans and strategies to build your body in effective manner and shape your future.",
         btnDec:"DISCOVER MORE ABOUT US",
         btnIcon:<AiOutlineArrowRight />
     },
     {
         icon:<BiStopwatch />,
-        label:"GYM STRATEGIES",
-        desc:"The sea freight service has grown consider ably in recent years. We spend timetting to kn.",
+        label:"EFFECTIVE TIME USE",
+        desc:"We have specific trained trainers who make your time used correctly and efficently. ",
+        btnDec:"DISCOVER MORE ABOUT US",
+        btnIcon:<AiOutlineArrowRight />
+    },
+    {
+        icon:<BiStopwatch />,
+        label:"ZUMBA CLASSES",
+        desc:"Join our Zumba classes led by expertly trained instructors who ensure every session is to your fitness goals.",
+        btnDec:"DISCOVER MORE ABOUT US",
+        btnIcon:<AiOutlineArrowRight />
+    },
+    {
+        icon:<CiDumbbell />,
+        label:"DIET PLANS",
+        desc:"Achieve your fitness goals with personalized diet plans crafted by our nutrition experts.",
         btnDec:"DISCOVER MORE ABOUT US",
         btnIcon:<AiOutlineArrowRight />
     },
@@ -75,7 +88,7 @@ export const client = [
         id:2,
         desc:"Your body can stand almost anything . Its your mind you have to convince.",
         img:img11,
-        clientName:"Krish Madan"
+        clientName:"Krrish Maadan"
     },
     {
         id:3,

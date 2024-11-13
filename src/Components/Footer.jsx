@@ -51,7 +51,8 @@ const Footer = ({nav}) => {
       </div>
 
       <div className=' border-t border-[#3e3e3e] max-container pt-10 pb-16 text-[#c4c4c4] text-center px-4'>
-        <p className=' font'>Copyright &copy;{date} &nbsp; All rights reserved </p>
+        <p className=' font'>Copyright &copy;{date} &nbsp; All rights reserved  </p>
+        <span>Website made by Ritesh bansal , rohit kumar yadav , lakshay , mayank</span>
       </div>
     </section>
   )

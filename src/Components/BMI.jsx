@@ -18,7 +18,7 @@ const BMICalculator = () => {
     };
 
     return (
-        <section className="calculate section">
+        <section  id="bmi"className="calculate section">
             <div className="calculate__container container grid">
                 <div className="calculate__content">
                     <div className="section__titles">
