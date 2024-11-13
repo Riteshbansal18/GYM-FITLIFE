@@ -17,12 +17,10 @@ import { teamMembers } from './Data/Data';
 
 const MainApp = () => {
   const [nav, setNav] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Track login state
+  const [isLoggedIn, setIsLoggedIn] = useState(false); 
   const location = useLocation();
-
-  // Function to handle login success
   const onLoginSuccess = () => {
-    setIsLoggedIn(true); // Set the user as logged in
+    setIsLoggedIn(true); 
   };
 
   window.addEventListener("scroll", () => {
@@ -32,7 +30,6 @@ const MainApp = () => {
 
   return (
     <div className="App">
-      {/* Show Nav only if not on the Login page */}
       {location.pathname !== "/Login" && <Nav nav={nav} />}
       <Routes>
         <Route
@@ -53,7 +50,6 @@ const MainApp = () => {
             </>
           }
         />
-        {/* Pass onLoginSuccess to Login component */}
         <Route path="/Login" element={<Login onLoginSuccess={onLoginSuccess} />} />
       </Routes>
     </div>
