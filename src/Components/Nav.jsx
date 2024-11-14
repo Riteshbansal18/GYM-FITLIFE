@@ -28,7 +28,6 @@ const Nav = ({ nav }) => {
           </div>
         </ul>
 
-        {/* Update the Link here */}
         <Link to="/login">
           <button className='py-3 px-5 text-xl group relative text-white bg-[orangered] rounded-sm max-lg:hidden'>
             <div className='buttonDiv'></div>
