@@ -26,10 +26,10 @@ const About = () => {
           Ritesh presents you services with flexible, convefnient and chient anipurpose layouts. You can select your favorite layouts.
           </p>
 
-          <button className=' py-4 px-9 text-xl group relative text-white bg-[orangered] rounded-sm'>
+          {/* <button className=' py-4 px-9 text-xl group relative text-white bg-[orangered] rounded-sm'>
             <div className=' buttonDiv'></div>
             <span className='buttonSpan'>BECOME A MEMBER</span>
-          </button>
+          </button> */}
 
         </div>
       </div>

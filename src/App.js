@@ -17,7 +17,7 @@ import { teamMembers } from './Data/Data';
 
 const MainApp = () => {
   const [nav, setNav] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); 
+  const [, setIsLoggedIn] = useState(false); 
   const location = useLocation();
   const onLoginSuccess = () => {
     setIsLoggedIn(true); 
